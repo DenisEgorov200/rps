@@ -11,7 +11,11 @@ export const Layout = ({ children }: Props) => {
     <>
       <Header />
       <NavMenu />
-      <main>{children}</main>
+      <main>
+        <div className="container px-5 mx-auto flex flex-col items-center">
+          {children}
+        </div>
+      </main>
     </>
   )
 }
