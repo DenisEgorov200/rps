@@ -7,12 +7,32 @@
   font-family: 'Russo One', sans-serif;
 }
 
+body {
+  background: url('/images/body-bg.jpeg');
+  background-repeat: no-repeat;
+}
+
+@layer base {
+  :root {
+    --color-base: 88, 54, 0;
+    --color-base-active: 54, 58, 87;
+
+    --color-yellow: 251, 253, 206;
+    --color-gray: 16, 19, 33;
+
+    --color-blue0: 137, 225, 247;
+    --color-blue1: 60, 163, 249;
+    --color-blue2: 0, 148, 255;
+    --color-blue3: 10, 50, 82;
+  }
+}
+
 @layer base {
   @font-face {
     font-family: 'Russo One';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('https://fonts.gstatic.com/s/russoone/v16/Z9XUDmZRWg6M1LvRYsHOy8mJrrg.woff2') format(woff2);
+    src: url('./public/fonts/Russo_One/RussoOne-Regular.ttf') format(ttf);
   }
 }

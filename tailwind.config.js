@@ -6,16 +6,21 @@ export default {
   ],
   theme: {
     extend: {
-      textColor: {
-        button: '#fbfdce'
+      colors: {
+        "base-color": "rgba(var(--color-base), <alpha-value>)",
+        yellow: "rgba(var(--color-yellow), <alpha-value>)",
+        gray: "rgba(var(--color-gray), <alpha-value>)",
+        blue: {
+          100: "rgba(var(--color-blue0), <alpha-value>)",
+          200: "rgba(var(--color-blue1), <alpha-value>)",
+          300: "rgba(var(--color-blue2), <alpha-value>)",
+          400: "rgba(var(--color-blue3), <alpha-value>)"
+        },
       },
-      boxShadow: {
-        button: 'inset -3px -24px 4px 0px rgba(250, 147, 0, 0.78),inset 0px 14px 10.8px 0px rgb(254, 232, 120),inset 0px -12px 4px 0px rgba(0, 0, 0, 0.25),0px 4px 4px 0px rgba(0, 0, 0, 0.6)'
-      },
-      dropShadow: {
-        'button-text': '2px 1.2px 0px rgb(88,54,0)'
+      borderRadius: {
+        '1-px': '0.0625rem'
       }
-    },
+    }
   },
   plugins: [],
 }
