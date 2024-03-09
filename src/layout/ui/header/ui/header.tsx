@@ -4,7 +4,7 @@ import { Progress } from '@shared/ui/progress'
 
 export const Header = () => {
   return (
-    <header className="py-11">
+    <header className="py-9">
       <div className="container px-5 mx-auto flex items-center justify-between gap-2">
         <IconButton src="/icons/avatar.svg" alt="avatar" />
         <div className="w-full flex items-center justify-between py-2 px-3 bg-blue-400/60 rounded-1px gap-7">

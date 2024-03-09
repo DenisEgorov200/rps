@@ -1,12 +1,13 @@
+import { ChestCardList } from '@entities/chest'
+import { Layout } from '@layout'
 import { Button } from '@shared/ui/button'
-import { Header } from '@widgets/header'
 
 export const App = () => {
   return (
-    <>
-      <Header />
-      <main>
-        <div className="container px-5 mx-auto flex flex-col items-center">
+    <Layout>
+      <div className="container px-5 mx-auto flex flex-col items-center">
+        <div>
+          <h2 className="text-2xl text-white uppercase mb-2">Арена 1</h2>
           <div className="w-full max-w-md p-2.5 flex items-center justify-between bg-blue-400/60 rounded-lg mb-2.5">
             <div className="text-center text-3xl text-white">
               <h3 className="text-xs opacity-80">Ставка</h3>
@@ -20,7 +21,8 @@ export const App = () => {
           </div>
           <Button label="играть" intent="primary" size="large" />
         </div>
-      </main>
-    </>
+        <ChestCardList />
+      </div>
+    </Layout>
   )
 }

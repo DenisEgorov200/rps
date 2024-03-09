@@ -11,6 +11,7 @@ export default defineConfig({
       "@app": path.resolve("src/app"),
       "@processes": path.resolve("src/processes"),
       "@pages": path.resolve("src/pages"),
+      "@layout": path.resolve("src/layout"),
       "@widgets": path.resolve("src/widgets"),
       "@features": path.resolve("src/features"),
       "@entities": path.resolve("src/entities"),
