@@ -47,9 +47,9 @@ interface Props
   label: ReactNode
 }
 
-export const Button = ({ label, intent, size }: Props) => {
+export const Button = ({ label, className, intent, size }: Props) => {
   return (
-    <button className={button({ intent, size })}>
+    <button className={`${className} ${button({ intent, size })}`}>
       <span className="[-webkit-text-stroke:1.2px_#583600]">{label}</span>
     </button>
   )

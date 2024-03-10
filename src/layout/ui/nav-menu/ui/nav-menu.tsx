@@ -3,7 +3,7 @@ const NAV_MENU_ITEMS = ['сундуки', 'арены', 'скины', 'бону�
 export const NavMenu = () => {
   return (
     <nav className="fixed bottom-0 w-full sm:relative">
-      <ul className="flex items-center sm:px-24">
+      <ul className="container mx-auto flex items-center sm:px-24">
         {NAV_MENU_ITEMS.map((item) => (
           <li
             key={item}

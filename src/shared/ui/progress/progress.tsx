@@ -13,7 +13,7 @@ export const Progress = ({ progress }: Props) => {
       <img
         src="/icons/star.svg"
         alt="star"
-        className="absolute top-50 -right-2 z-10"
+        className="absolute top-1/2 -right-2 -translate-y-1/2 z-10"
       />
     </div>
   )

@@ -17,6 +17,9 @@ export default {
           400: "rgba(var(--color-blue3), <alpha-value>)"
         },
       },
+      fontSize: {
+        xss: ['0.625rem', '0.813rem']
+      },
       backgroundImage: {
         'gradient-blue': 'linear-gradient(180.00deg, rgb(62, 79, 100),rgb(47, 61, 79) 100%)',
         'gradient-blue-active': 'linear-gradient(180.00deg, rgb(155, 196, 245),rgb(79, 127, 184) 100%)'

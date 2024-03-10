@@ -8,8 +8,10 @@
 }
 
 body {
+  height: 100dvh;
   background: url('/images/body-bg.jpeg');
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @layer base {
